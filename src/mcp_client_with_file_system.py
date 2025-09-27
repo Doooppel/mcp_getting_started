@@ -20,7 +20,7 @@ class MCPClient:
     def __init__(self):
         self.session: Optional[ClientSession] = None
         self.exit_stack = AsyncExitStack()
-        self.client = OpenAI(api_key=os.getenv("OPENAI_KEY"),base_url="https://generativelanguage.googleapis.com/v1beta/openai/")
+        self.client = OpenAI(api_key=os.getenv("OPENAI_KEY"),base_url=os.getenv("OPENAI_URL"))
 
     async def connect_to_server(self):
         server_params = StdioServerParameters(
