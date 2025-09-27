@@ -1,4 +1,4 @@
-Demo using OpenAI api to access Google Gemini, build one mcp server and client. 
+Demo using latest OpenAI api to access Google Gemini, build one mcp server and client. 
 which can make LLM access local filesystem.
 
 uv init mcp_getting_started
