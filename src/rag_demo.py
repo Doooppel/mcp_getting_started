@@ -25,7 +25,7 @@ for i, doc in enumerate(docs):
     )
 
 # 3. User query
-query = "Who created Python?"
+query = "Who created Java? You can answer not only based context"
 system_prompt = "Answer based only on the context."
 
 # 4. Retrieve relevant chunks
